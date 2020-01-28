@@ -24,6 +24,4 @@ describe('CustomHeaderComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-
-  
 });

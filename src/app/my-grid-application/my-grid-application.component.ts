@@ -16,7 +16,7 @@ export class MyGridApplicationComponent implements OnInit {
 
   public gridOptions: GridOptions;
   public gridApi;
-  private gridColumnApi;
+  public gridColumnApi;
   private overlayLoadingTemplate;
   private columnDefs;
   private defaultColDef;
@@ -26,7 +26,6 @@ export class MyGridApplicationComponent implements OnInit {
 
   private recordCount = 0;
   private selectedCount = 0;
-  private btnText = 'Hide Checkbox';
   private selectionHidden: boolean = true;
   title = 'grid app';
 
